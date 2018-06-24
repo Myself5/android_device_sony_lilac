@@ -24,8 +24,9 @@ PRODUCT_MODEL := G8341
 PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=poplar \
-    BUILD_FINGERPRINT=Sony/poplar/poplar:8.0.0/OPR6.170623.013/1:user/dev-keys
+    PRODUCT_NAME=poplar
+
+BUILD_FINGERPRINT:=Sony/poplar/poplar:8.0.0/OPR6.170623.013/1:user/dev-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carbon.maintainer="Myself5"
