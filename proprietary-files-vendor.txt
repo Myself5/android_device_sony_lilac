@@ -952,7 +952,7 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # QTI_GNSS
-vendor/bin/hw/vendor.qti.gnss@1.0-service
+#vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/slim_daemon
@@ -961,7 +961,7 @@ vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/apdr.conf
 vendor/etc/flp.conf
-vendor/etc/init/vendor.qti.gnss@1.0-service.rc
+#vendor/etc/init/vendor.qti.gnss@1.0-service.rc
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
