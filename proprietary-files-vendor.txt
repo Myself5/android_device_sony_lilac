@@ -1339,8 +1339,8 @@ vendor/etc/hbtp/hbtpcfg.dat
 vendor/etc/hbtp/hbtpcfg2.dat
 vendor/etc/hbtp/qtc800h.bin
 vendor/etc/hbtp/qtc800s_dsp.bin
-vendor/firmware/touch_module_id_0xf0.img
-vendor/firmware/touch_module_id_0xf1.img
+vendor/firmware/touch_module_id_0xe0.img
+vendor/firmware/touch_module_id_0xe1.img
 vendor/lib/libhbtpclient.so
 vendor/lib/libhbtpdsp.so
 vendor/lib/libhbtpfrmwk.so
