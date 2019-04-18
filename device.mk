@@ -6,10 +6,12 @@ $(call inherit-product, vendor/sony/poplar/poplar-vendor.mk)
 ifeq ($(WITH_FDROID),true)
 $(call inherit-product, vendor/fdroid/fdroid-vendor.mk)
 endif
+ifeq ($(WITH_MICROG),true)
+$(call inherit-product, vendor/microg/microg-vendor.mk)
+endif
 
-### DALVIK/HWUI
+### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 DEVICE_PATH := device/sony/poplar
 
